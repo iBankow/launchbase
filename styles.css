@@ -1,0 +1,130 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap";
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+header{
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+header .link{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+    padding-bottom: 3px;
+    text-decoration: initial;
+}
+
+header .link:hover{
+    color: purple;
+    transition: 200ms;
+}
+
+
+body {
+    font-family: 'Roboto';
+    background-color: grey;
+    color: white;
+}
+
+img .logo{
+    margin-top: 6px;
+    border-radius: 50%;
+    border: 5px solid purple;
+    max-width: 265px;
+}
+
+div {
+    text-align: center;
+}
+
+#wrapper h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    color: purple;
+    border-bottom: 3px solid rebeccapurple;
+    max-width: 600px;
+    margin: 8 auto;
+}
+
+#wrapper p {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 500px;
+    margin: 32px auto;
+}
+
+#wrapper li {
+    font-size: 18;
+    margin-top: 14px;
+    text-decoration: initial;
+}
+
+#wrapper li:hover {
+    color: purple;
+    transition: color 200ms;
+}
+
+.links {
+    margin-top: 32px;
+}
+
+.links a {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+    padding-bottom: 3px;
+    text-decoration: initial;
+}
+
+.links a:hover {
+    color: purple;
+    transition: color 200ms;
+}
+
+
+/*=== CARDS ===*/
+
+
+.cards{
+    max-width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.card{
+    background-color: purple;
+}
+
+.card__imager-container{
+    width: 100%;
+}
+
+.card__tilte-container, 
+.card_info{
+    padding: 24px;
+}
+
+.card_info{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card_price {
+    background-color: rebeccapurple;
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-decoration: initial;
+}
